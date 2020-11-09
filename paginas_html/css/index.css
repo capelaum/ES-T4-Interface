@@ -1,0 +1,99 @@
+
+body {
+  background-color: var(--primary);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.header-title {
+  width: 100%;
+  text-align: center;
+  color: var(--secundary);
+  margin-top: 80px;
+  font-size: 24px;
+}
+
+.header-main {
+  width: 100%;
+  height: 30vh;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  background-color: var(--background);
+  margin: 20px;
+  border-radius: 7px;
+
+}
+
+.header-menu-button{
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 80%;
+  height: 20%;
+  max-height: 150px;
+  margin: 20px auto;
+  
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  
+  border-radius: 7px;
+  background-color: var(--secundary);
+  color: white;
+  transition: ease 0.5s;
+
+}
+
+.header-menu-button:hover{
+  background-color: var(--secundary-darker);
+}
+
+.header-icon {
+  
+  display: block;
+  
+  bottom: 20px;
+
+  color: var(--secundary);
+}
+
+.header-icon i {
+  display: block;
+}
+
+/* MAIN */
+
+main{
+  margin-bottom: 80px;
+}
+
+.main-title {
+  font-size: 36px;
+  width: 100%;
+  font-weight: 500;
+}
+
+
+
+
+
+
+

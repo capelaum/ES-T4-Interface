@@ -1,0 +1,85 @@
+body {
+  background-color: var(--primary);
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel {
+  width: 20%;
+  display: block;
+  margin-top: 60px;
+
+}
+
+.button i{
+  padding-right: 10px;
+}
+
+main {
+  margin-bottom: 80px;
+}
+
+main h2{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 40px;
+  font-weight: 500;
+}
+
+.main-title-1{
+  padding-bottom: 40px;
+}
+
+.main-aplications-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+
+  padding: 40px 0;
+}
+
+.main-aplication {
+  width: calc(33% - 40px);
+  height: 300px;
+
+  text-align: center;
+  border-radius: 5px;
+
+  background-color: var(--secundary);
+  color: var(--secundary-darker);
+
+  border: 1px solid var(--secundary-darker);
+  cursor: pointer;
+
+  text-decoration: none;
+}
+
+.main-aplication:hover {
+  background-color: var(--secundary-darker);
+  color: var(--secundary);
+}
+
+.chart {
+  display: block;
+  margin-top: 20px;
+}
+
+.main-aplication h3 {
+  padding-top: 15px;
+  color: black;
+}
+
+.main-aplication i{
+  padding-top: 50px;
+}
+
+.aplication-check { 
+  position: relative;
+  right: 20px;
+  top: 65px;
+}
+
